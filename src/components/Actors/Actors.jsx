@@ -23,16 +23,6 @@ const Actors = () => {
       </Box>
     );
   }
-  // if (error) {
-  //   return (
-  //     <Box display="flex" justifyContent="center" alignItems="align-center">
-  //       <Button startIcon={<ArrowBack />} onClick={()=> history.goBack()}  color='primary' >
-  //       Go Back
-  //       </Button>
-  //     </Box>
-  //   );
-  // }
-
   return (
     <>
       <Grid container spacing={3}>

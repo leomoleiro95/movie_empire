@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie_empire/static/css/main.6d4e09db.css",
+    "main.js": "/movie_empire/static/js/main.9205888f.js",
+    "index.html": "/movie_empire/index.html",
+    "main.6d4e09db.css.map": "/movie_empire/static/css/main.6d4e09db.css.map",
+    "main.9205888f.js.map": "/movie_empire/static/js/main.9205888f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d4e09db.css",
+    "static/js/main.9205888f.js"
+  ]
+}

@@ -14,7 +14,7 @@ const Search = () => {
     const dispatch = useDispatch()
     const location = useLocation()
 
-    if (location.pathname !== '/') return null
+    if (location.pathname !== "/movie_empire") return null;
 
     const handleKeyPress = (event) => {
         if(event.key === 'Enter') {
