@@ -16,23 +16,23 @@ const App = () => {
       <CssBaseline />
       <NavBar />
       <main className={classes.content}>
-      <div className={classes.toolbar} />
+        <div className={classes.toolbar} />
         <Switch>
-          <Route exact path="/movie/:id">
+          <Route exact path="/movie_empire/movie/:id">
             <MovieInformation />
           </Route>
-          <Route exact path="/actors/:id">
+          <Route exact path="/movie_empire/actors/:id">
             <Actors />
           </Route>
-          <Route exact path={["/", "/approved"]}>
+          <Route exact path={["/movie_empire", "/movie_empire/approved"]}>
             <Movies />
           </Route>
-          <Route exact path="/profile/:id">
+          <Route exact path="/movie_empire/profile/:id">
             <Profile />
           </Route>
         </Switch>
       </main>
-      <div  ref={alanBtnContainer}  />
+      <div ref={alanBtnContainer} />
     </div>
   );
 }

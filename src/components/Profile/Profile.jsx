@@ -32,7 +32,7 @@ const Profile = () => {
   const logout = () => {
     localStorage.clear();
 
-    window.location.href = "/";
+    window.location.href = "/movie_empire";
   };
 
   return (

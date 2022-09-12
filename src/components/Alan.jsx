@@ -20,13 +20,13 @@ const useAlan = () => {
          );
 
          if (foundGenre) {
-           history.push("/");
+           history.push("/movie_empire");
            dispatch(selectGenreOrCategory(foundGenre.id));
          } else {
            const category = genreOrCategory.startsWith("top")
              ? "top_rated"
              : genreOrCategory;
-           history.push("/");
+           history.push("/movie_empire");
            dispatch(selectGenreOrCategory(category));
          }
        } else if (command === "changeMode") {
@@ -39,7 +39,7 @@ const useAlan = () => {
          fetchToken();
        } else if (command === "logout") {
          localStorage.clear();
-         history.push("/");
+         history.push("/movie_empire");
        } else if (command === "search") {
          dispatch(searchMovie(query));
        }

@@ -35,7 +35,7 @@ const Sidebar = ({ setMobileOpen }) => {
 
   return (
     <>
-      <Link to="/" className={classes.imageLink}>
+      <Link to="/movie_empire" className={classes.imageLink}>
         <img
           className={classes.image}
           src={theme.palette.mode === "light" ? redLogo : blueLogo}
@@ -46,7 +46,7 @@ const Sidebar = ({ setMobileOpen }) => {
       <List>
         <ListSubheader>Categories</ListSubheader>
         {categories.map(({ label, value }) => (
-          <Link key={value} className={classes.links} to="/">
+          <Link key={value} className={classes.links} to="/movie_empire">
             <ListItem
               onClick={() => dispatch(selectGenreOrCategory(value))}
               button
@@ -72,7 +72,7 @@ const Sidebar = ({ setMobileOpen }) => {
           </Box>
         ) : (
           data.genres.map(({ name, id }) => (
-            <Link key={name} className={classes.links} to="/">
+            <Link key={name} className={classes.links} to="/movie_empire">
               <ListItem
                 onClick={() => dispatch(selectGenreOrCategory(id))}
                 button
