@@ -1,6 +1,7 @@
 # Movie empire: Web App built using the tmdb API, React
 
-### Login into the web app and start searching for the most popular movies, search by category or by name. Logged in users can add movies to their favorites or to their watchlist
+### Login into the web app and start searching for the most popular movies, search by category or by name, watch trailers, get detial information about all movies and more!. 
+### Logged in users can add movies to their favorites or to their watchlist
 
 #### Functionality
 * Use Alan AI (the blue dot in the right bottom corner) to turn dark mode on/off, seaech for movies, log in or logout, try the following commadns:
