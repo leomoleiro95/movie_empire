@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/movie_empire/static/css/main.6d4e09db.css",
-    "main.js": "/movie_empire/static/js/main.aa453c36.js",
+    "main.js": "/movie_empire/static/js/main.264a0b93.js",
     "index.html": "/movie_empire/index.html",
     "main.6d4e09db.css.map": "/movie_empire/static/css/main.6d4e09db.css.map",
-    "main.aa453c36.js.map": "/movie_empire/static/js/main.aa453c36.js.map"
+    "main.264a0b93.js.map": "/movie_empire/static/js/main.264a0b93.js.map"
   },
   "entrypoints": [
     "static/css/main.6d4e09db.css",
-    "static/js/main.aa453c36.js"
+    "static/js/main.264a0b93.js"
   ]
 }
